@@ -1,7 +1,7 @@
 # https://leetcode.com/problems/plus-one/
 
 class Solution:
-    def plusOne(self, digits: List[int]) -> List[int]:
+    def plusOne(self, digits):
         digits_reverse=digits[::-1]
         special_case=1
         for i in range(len(digits)):
